@@ -9,7 +9,7 @@
     "John Lancaster (http://jlank.com)"
   ],
   "version": "0.11.0",
-  "main": "./clarinet.js",
+  "main": "./lib/index.js",
   "homepage": "https://github.com/dscape/clarinet",
   "repository": {
     "type": "git",
@@ -47,5 +47,9 @@
   "directories": {
     "test": "test"
   },
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "stream": "0.0.2",
+    "webpack": "1.13.3"
+  }
 }
